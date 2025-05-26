@@ -5,7 +5,7 @@ tags:
   - structure/about
   - target/starterkit
 aliases: 
-lead: "**Permanent Notes** are processed, stand-alone insights that are linked meaningfully into the system. They transform fleeting ideas into structured knowledge that can be revisited and built upon. Use them for writing notes in your own words, linking them to related concepts, and making them reusable."
+lead: "**永久笔记**是经过处理的、独立的洞察，有意义地链接到系统中。它们将临时想法转化为可以重新访问和构建的结构化知识。用于用自己的话写笔记，将它们链接到相关概念，并使它们可重复使用。"
 visual: "![[image.jpg]]"
 created: 2024-07-28, 13:49
 modified: 2025-03-30, 16:36
@@ -13,36 +13,36 @@ template_type: Structure
 template_version: "1.14"
 view_count: 2
 ---
-<!--  See "Template Help" below for using properties -->
+<!--  参见下方"模板帮助"了解属性使用方法 -->
 
-<!--  Clear and descriptive title -->
+<!--  清晰且描述性的标题 -->
 
-<!-- Visual or sketchnote if available -->
+<!-- 如果有的话，视觉或草图笔记 -->
 
-![[About - 3_Permanent Notes.canvas|About - 3_Permanent Notes]]
-[[About - 1_Fleeting Notes|1_Fleeting]] | [[_About - 2_Literature Notes|2_Literature]] | [[_About - 3_Permanent Notes|3_Permanent]] | [[About - 4_Project Notes|4_Project]] | [[_About - 5_Structure Notes|5_Structure]]
+![[About - 3_Permanent Notes.canvas|关于 - 3_永久笔记]]
+[[About - 1_Fleeting Notes|1_临时]] | [[_About - 2_Literature Notes|2_文献]] | [[_About - 3_Permanent Notes|3_永久]] | [[About - 4_Project Notes|4_项目]] | [[_About - 5_Structure Notes|5_结构]]
 
-<!--  Summarized structure from "lead"-key  in properties section -->
+<!--  从属性部分的"lead"键中总结的结构  -->
 
 > [!Definition]
 > `= this.lead`
 
 > [!Simple Rules]
->- Be extremely selective in what you decide to keep.
->- Use unique and descriptive titles.
->- Use your own words.
->- Don't mix multiple ideas in one note.
->- One idea, one note.
->- Summarize the main idea of the note in three sentences or less.
->- Leave a reason to revisit your idea.
->- Always keep a link to the source.
+>- 对决定保留的内容要极其有选择性。
+>- 使用独特且描述性的标题。
+>- 使用自己的话。
+>- 不要在一个笔记中混合多个想法。
+>- 一个想法，一个笔记。
+>- 用三句话或更少的话总结笔记的主要想法。
+>- 留下重新访问想法的理由。
+>- 始终保留指向来源的链接。
 
-<!-- Main STRUCTURE of my content -->
+<!-- 我的内容的主要结构 -->
 ```dataview
 TABLE WITHOUT ID 
-	file.link as "3_Permanent Notes", 
-	(date(today) - file.cday).day as "alive",
-	view_count AS "opened"
+	file.link as "3_永久笔记", 
+	(date(today) - file.cday).day as "存在天数",
+	view_count AS "打开次数"
 FROM "3_Permanent"
 SORT file.cday desc
 LIMIT 20
@@ -50,6 +50,6 @@ LIMIT 20
 
 
 ---
-More about: [[Permanent Notes]]
+了解更多：[[永久笔记]]
 
 

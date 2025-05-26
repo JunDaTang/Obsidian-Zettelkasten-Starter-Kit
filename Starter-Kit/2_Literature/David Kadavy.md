@@ -9,7 +9,7 @@ aliases:
 birth: 
 death: 
 bio_short: 
-lead: +++ Term definition goes here +++
+lead: +++ 术语定义放在这里 +++
 visual: "![[image.jpg]]"
 template_type: Person
 template_version: "1.11"
@@ -18,54 +18,54 @@ view_count: 2
 
 # David Kadavy
 
-##  Bio
-<!-- Short biography of the AUTHOR -->
+##  简介
+<!-- 作者的简短传记 -->
 
 > [!Bio short]
 > `= this.bio_short`
 
 
 
-## Books
-<!-- Only most important I‘ve read -->
-- [[Digital Zettelkasten - David Kadavy]]
+## 书籍
+<!-- 只列出我读过的最重要的书籍 -->
+- [[数字卡片盒 - David Kadavy]]
 
 
-## Notes
-<!-- The main content of my thoughts really -->
+## 笔记
+<!-- 我思考的主要内容 -->
 - 
 
 
-## Quotes
-<!-- Notable quotes with reference to their page or location -->
+## 引言
+<!-- 值得注意的引言及其页码或位置引用 -->
 - 
 
 ---
-# Back Matter
-## Source
-<!-- Always keep a link to the source- --> 
+# 后附内容
+## 来源
+<!-- 始终保留指向来源的链接- --> 
 - 
 
-## Tasks
-<!-- What remains to be done with this note? --> 
+## 任务
+<!-- 这个笔记还需要做什么？ --> 
 - 
 
-## Questions
-<!-- What remains for you to consider? -->
+## 问题
+<!-- 您还需要考虑什么？ -->
 - 
 
-## References 
-<!-- Links to pages not referenced in the content -->
-- [Digital Zettelkasten - Principles and Methods](Digital%20Zettelkasten%20-%20Principles%20and%20Methods.md)
+## 参考资料
+<!-- 指向内容中未引用页面的链接 -->
+- [数字卡片盒 - 原理和方法](Digital%20Zettelkasten%20-%20Principles%20and%20Methods.md)
 
-## Template Help
+## 模板帮助
 
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)
 
 
 
@@ -75,9 +75,9 @@ view_count: 2
 
 
 ---
-References
+参考资料
 
-- [How to take Smart Notes - Sönke Ahrens](How%20to%20take%20Smart%20Notes%20-%20Sönke%20Ahrens.md)
+- [如何做聪明的笔记 - Sönke Ahrens](How%20to%20take%20Smart%20Notes%20-%20Sönke%20Ahrens.md)
 - https://kadavy.net/blog/posts/how-to-take-smart-notes-summary/
 - https://kadavy.net/blog/
 

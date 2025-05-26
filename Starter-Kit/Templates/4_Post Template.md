@@ -8,7 +8,7 @@ tags:
 - target/reddit
 aliases:
 visual: "![[image.jpg]]"
-lead: +++ Lead paragraph goes here +++
+lead: +++ 引言段落放在这里 +++
 published:
 views: 0
 feedbacks: 0
@@ -18,99 +18,99 @@ template_type: "Post"
 template_version: "1.27"
 ---
 
-# Post - {{Title}}
+# 帖子 - {{Title}}
 
-<!-- Main content of this story -->
-✨ Title ✨
+<!-- 这个故事的主要内容 -->
+✨ 标题 ✨
 ...
 
-**References**
+**参考资料**
 ...
 
 . . .  
-Thanks very much! I really appreciate you reading my work. If you enjoyed it and found it useful, you might also like the related book “MAKE USEFUL NOTES. A simple guide to a complex skill by using Sketchnotes, Obsidian and Zettelkasten”. Here's your free copy: https://github.com/groepl/Take-Useful-Notes. 
+非常感谢！我真的很感激您阅读我的作品。如果您喜欢并发现它有用，您可能也会喜欢相关书籍《做有用的笔记。使用草图笔记、Obsidian和卡片盒的复杂技能简单指南》。这是您的免费副本：https://github.com/groepl/Take-Useful-Notes。
 . . .  
 
-**Tags**
+**标签**
 ....
 
-## Tags for LinkedIn
+## LinkedIn标签
 
 ```
---- TAGS FOR PUBLISHING (MAX 30) ---
+--- 发布标签（最多30个）---
 #edmund2024 #agile #agilität #agilemindset #learning #lernos #lernossketchnoting #newwork #wol #workingoutloud #digitalsketchnotes #doodle #doodles #doodleart #drawing #facilitation #handwriting #lettering #sketchnote #sketchnotes #sketchnoting #storytelling #visualization #visualnotes #visualstorytelling #visualthinking #conceptsapp #powerbi #procreate #knowledgemanagement #obsidian #obsidianmd #pkm #secondbrain #smartsketchnotes #writing #zettelkasten 
 ```
 
 ```
---- STRUCTURED LIST OF TAGS as input to build up list of TAGS FOR PUBLISHING. --
+--- 结构化标签列表作为构建发布标签列表的输入。 --
 
-FROM
+来源
 #edmund2024
 
-AGILE
+敏捷
 #agile #agilität #agilecoach #agilemindset 
 
-LEARNING
+学习
 #learning #lernos #lernossketchnoting #newwork #wol #workingoutloud 
 
-SKETCHNOTES
+草图笔记
 #digitalsketchnotes #doodle #doodles #doodleart #drawing #facilitation #handwriting #lettering #sketchnote #sketchnotes #sketchnoting #storytelling #visualization #visualnotes #visualstorytelling #visualthinking
 
-TOOLS
+工具
 #ai #chatgpt #conceptsapp #powerbi #obsidian #obsidianmd #procreate 
 
-ZETTELKASTEN
+卡片盒
 #knowledgemanagement #pkm #secondbrain #smartsketchnotes #writing #zettelkasten 
 ```
 
 ---
-# Back Matter
-**Source**
-<!--Always keep a link to the source. -->
+# 后附内容
+**来源**
+<!--始终保留指向来源的链接。 -->
 - based_on::
 
-**References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。参见: [[相关笔记]] 因为 <原因> -->
 - see:: 
 
-**Terms**
-<!-- Links to definition pages. -->
+**术语**
+<!-- 指向定义页面的链接。 -->
 - 
 
-**Target**
-<!-- Link to project note or externaly published content. -->
+**目标**
+<!-- 指向项目笔记或外部发布内容的链接。 -->
 - target::
 
-**Feedback**
-<!-- Any critique, ideas or questions from social media or other audience? --> 
+**反馈**
+<!-- 来自社交媒体或其他受众的任何批评、想法或问题？ --> 
 - 
 
 
-**Tasks**
-<!-- What remains to be done do get the final version? --> 
+**任务**
+<!-- 获得最终版本还需要做什么？ --> 
 - 
 
 
-**Questions**
-<!-- What remains for you to consider in the draft version? --> 
+**问题**
+<!-- 在草稿版本中您还需要考虑什么？ --> 
 - 
 
-**Latest Posts**
-<!-- Links to chapters from e-book -->
+**最新帖子**
+<!-- 指向电子书章节的链接 -->
 
 ```dataview
 TABLE 
-	file.cday AS "Date"
+	file.cday AS "日期"
 FROM #target/linkedin 
 SORT file.cday DESC
 LIMIT 10
 ```
 
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)

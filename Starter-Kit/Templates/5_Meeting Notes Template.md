@@ -3,7 +3,7 @@ tags:
   - type/meeting
   - theme/xyz
 aliases: 
-lead: +++ Lead paragraph goes here +++
+lead: +++ 引言段落放在这里 +++
 visual: "![[image.jpg]]"
 meeting_date: 
 created: {{DATE:YYYY-MM-DD, HH:mm}}
@@ -11,81 +11,81 @@ modified: {{DATE:YYYY-MM-DD, HH:mm}}
 template_type: Meeting
 template_version: "1.26"
 ---
-<!--  See "Template Help" below for using properties -->
+<!--  参见下方"模板帮助"了解属性使用方法 -->
 
-# {{Title}}
+# {{标题}}
 
-<!-- Main content of my thoughts really -->
+<!-- 我思考的主要内容 -->
 
-## Date & Time
-<!-- With starting and ending times -->
+## 日期和时间
+<!-- 包含开始和结束时间 -->
 - 
 
-## Location
-<!-- Physical location or links to online meeting (Zoom, MS Teams, Miro etc.) -->
+## 地点
+<!-- 物理位置或在线会议链接（Zoom、MS Teams、Miro等） -->
 - 
 
-## Participants
-<!-- List of meeting participants using linked names -->
+## 参与者
+<!-- 使用链接名称列出会议参与者 -->
 - 
 
-## Goals
-<!-- What we want to achieve in this meeting -->
+## 目标
+<!-- 我们在这次会议中想要达成的目标 -->
 - 
 
-## Agenda 
-<!-- What, who & duration planned in advance -->
+## 议程 
+<!-- 提前计划的内容、负责人和持续时间 -->
 - 
 
-## Discussion Notes
-<!-- Cover discussion topics -->
+## 讨论记录
+<!-- 涵盖讨论主题 -->
 - 
 
-## Action Items
-<!-- Add tasks, task owners and due dates -->
+## 行动项目
+<!-- 添加任务、任务负责人和截止日期 -->
 - 
 
-## Decisions
-<!-- Record of decisions you make in this meeting -->
-- Next meeting date and place: 
-- Documents to be included in the meeting notes:
+## 决策
+<!-- 您在此次会议中做出的决策记录 -->
+- 下次会议日期和地点： 
+- 会议记录中需要包含的文档：
 
 
 
 ---
-# Back Matter
+# 后附内容
 
-**Source**
-<!-- Always keep a link to the source- --> 
+**来源**
+<!-- 始终保留指向来源的链接- --> 
 - based_on::
 
-**References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。参见: [[相关笔记]] 因为 <原因> -->
 - see:: 
 
-**Terms**
-<!-- Links to definition pages. -->
+**术语**
+<!-- 指向定义页面的链接。 -->
 - 
 
-**Target**
-<!-- Link to project note or externaly published content. -->
+**目标**
+<!-- 指向项目笔记或外部发布内容的链接。 -->
 - used_in::
 
 ---
-**Tasks**
-<!-- What remains to be done with this note? --> 
+**任务**
+<!-- 这个笔记还需要做什么？ --> 
 - 
 
-**Questions**
-<!-- What remains for you to consider? --> 
+**问题**
+<!-- 您还需要考虑什么？ --> 
 - question::
 
 ---
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)

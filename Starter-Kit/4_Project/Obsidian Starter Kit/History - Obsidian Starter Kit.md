@@ -5,7 +5,7 @@ tags:
   - type/note
   - target/starterkit
 aliases: 
-title_short: Obsidian Starter Kit
+title_short: Obsidian启动套件
 chapter: XI.14
 version: "0.1"
 status: published
@@ -16,75 +16,74 @@ template_version: "1.1"
 view_count: 1
 ---
 
-# History - Obsidian Starter Kit
+# 历史 - Obsidian启动套件
 
 ***
 **[v3.0.0 - 19.01.2024](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/releases/tag/v3.0.0)**
 
-What's new:
-- "Asset" folder updated.
-- Dataview - Kanban Board.md added.
+新功能:
+- "Asset"文件夹已更新。
+- 添加了Dataview - 看板.md。
 
-Bug Fixes:
+错误修复:
 - 
 
 ***
 **[v2.0.0 - 25.04.2023](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/releases/tag/v2.0.0)**
 
-What‘s New:
-- Templates updated. See folder "[Templates](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/tree/main/Starter-Kit/Templates)".
-- Concept for linking notes with templates added. See folder "[Canvases](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/tree/main/Starter-Kit/Canvases)".
+新功能:
+- 模板已更新。参见文件夹"[模板](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/tree/main/Starter-Kit/Templates)"。
+- 添加了使用模板链接笔记的概念。参见文件夹"[画布](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/tree/main/Starter-Kit/Canvases)"。
 
 
 ***
 **[v1.0.0](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/releases/tag/v1.0.0)**
 
-What‘s New:
-- First Release
+新功能:
+- 首次发布
 
 ***
 **[v0.1.0](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit/releases/tag/0.1.0)**
 
-What‘s New:
-- First Pre-release
+新功能:
+- 首次预发布
 
 ---
-# Back Matter
-**Source**
-<!-- Always keep a link to the source- --> 
-- based_on:: [Releases · Obsidian-Templates](https://github.com/groepl/Obsidian-Templates/releases)
+# 后附内容
+**来源**
+<!-- 始终保留指向来源的链接- --> 
+- based_on:: [发布 · Obsidian-Templates](https://github.com/groepl/Obsidian-Templates/releases)
 
-**References**
-<!-- Links to pages not referenced in the content. -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。 -->
 - 
 
-**Terms**
-<!-- Links to definition pages. -->
+**术语**
+<!-- 指向定义页面的链接。 -->
 - 
 
-**Target**
-<!-- Link to project note or externaly published content. -->
-- 
-
----
-**Tasks**
-<!-- What remains to be done with this note? --> 
-- 
-
-**Questions**
-<!-- What remains for you to consider? --> 
+**目标**
+<!-- 指向项目笔记或外部发布内容的链接。 -->
 - 
 
 ---
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**任务**
+<!-- 这个笔记还需要做什么？ --> 
 - 
+
+**问题**
+<!-- 您还需要考虑什么？ --> 
+- 
+
+---
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)
 
 
 

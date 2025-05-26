@@ -1,11 +1,10 @@
-
-<!-- DataviewJS for random quotes. Use as example and modify -->
+<!-- 随机引言的DataviewJS。用作示例并修改 -->
 > [!QUOTE]
 > ```dataviewjs 
-> // List of quotes 
+> // 引言列表 
 > let quotes = []; 
 >
-> // Extract quotes from pages
+> // 从页面中提取引言
 > dv.pages("#theme/zettelkasten") 
 >	.where(page => page.quote) 
 >	.forEach(page => { 
@@ -15,15 +14,15 @@
 >				page: page }); 
 >	})}); 
 >
-> // Select random quote
+> // 选择随机引言
 > let text = quotes[Math.floor(Math.random() * quotes.length)] 
 >
-> // Generate text with quote
+> // 生成带引言的文本
 > dv.paragraph(text.message + " <br>- " 
->	+ text.page.author + " <br><br><small>From: " 
+>	+ text.page.author + " <br><br><small>来自: " 
 >	+ text.page.file.link) + "</small>"; 
 > ```
 <!-- 
-Quotes are filtered by tags. In this example: #theme/zettelkasten. Change script if needed. 
-Mandatory properties in your front matter:  "quote" and "author".
+引言按标签过滤。在此示例中：#theme/zettelkasten。如需要请修改脚本。
+前言中的必需属性："quote"和"author"。
 -->

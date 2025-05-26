@@ -7,33 +7,33 @@ tags:
   - structure/about
   - target/starterkit
 aliases: 
-lead: "**Literature Notes** are summaries of sources with key takeaways. They extract useful insights from books, articles, or lectures. Use them for highlighting arguments, summarizing theories, and noting relevant passages."
+lead: "**文献笔记**是对资料来源的总结，包含关键要点。它们从书籍、文章或讲座中提取有用的洞察。用于突出论点、总结理论和记录相关段落。"
 visual: "![[image.jpg]]"
 template_type: Structure
 template_version: "1.14"
 ---
-<!--  See "Template Help" below for using properties -->
+<!--  参见下方"模板帮助"了解属性使用方法 -->
 
-<!--  Clear and descriptive title -->
-![[About - 2_Literature Notes.canvas|About - 2_Literature Notes]]
-[[About - 1_Fleeting Notes|1_Fleeting]] | [[_About - 2_Literature Notes|2_Literature]] | [[_About - 3_Permanent Notes|3_Permanent]] | [[About - 4_Project Notes|4_Project]] | [[_About - 5_Structure Notes|5_Structure]]
+<!--  清晰且描述性的标题 -->
+![[About - 2_Literature Notes.canvas|关于 - 2_文献笔记]]
+[[About - 1_Fleeting Notes|1_临时]] | [[_About - 2_Literature Notes|2_文献]] | [[_About - 3_Permanent Notes|3_永久]] | [[About - 4_Project Notes|4_项目]] | [[_About - 5_Structure Notes|5_结构]]
 
-<!--  Summarized structure from "lead"-key  in properties section -->
+<!--  从属性部分的"lead"键中总结的结构  -->
 
 > [!Definition]
 > `= this.lead`
 
 > [!Simple Rules]
->- Be extremely selective in what you decide to keep.
->- Write in the context of the source.
->- Always keep a link to the source.
+>- 对决定保留的内容要极其有选择性。
+>- 在来源的上下文中写作。
+>- 始终保留指向来源的链接。
 
-<!-- Main STRUCTURE of my content -->
-<!-- Dataview table. Use as example and modify. -->
+<!-- 我的内容的主要结构 -->
+<!-- Dataview表格。用作示例并修改。 -->
 ```dataview
 TABLE WITHOUT ID 
-	file.link as "2_Literature Notes", 
-	(date(today) - file.cday).day as "Days alive" 
+	file.link as "2_文献笔记", 
+	(date(today) - file.cday).day as "存在天数" 
 FROM "2_Literature"
 SORT file.cday asc 
 LIMIT 20
@@ -41,4 +41,4 @@ LIMIT 20
 
 
 ---
-More about: [[Literature Notes]]
+了解更多：[[Literature Notes]]

@@ -4,13 +4,13 @@ tags:
   - theme/zettelkasten
   - target/starterkit
 aliases: 
-lead: +++ Lead paragraph goes here +++
+lead: +++ 引言段落放在这里 +++
 visual: "![[image.jpg]]"
-title: Digital Zettelkasten
-subtitle: Principles, Methods, & Examples
+title: 数字卡片盒
+subtitle: 原理、方法和示例
 author: David Kadavy
 authors: David Kadavy
-category: Reference
+category: 参考书
 publisher: Kadavy, Inc.
 publish_date: 2021-05-25
 total_page: 77
@@ -34,86 +34,86 @@ template_type: Book
 template_version: "1.15"
 view_count: 3
 ---
-<!-- 
-rating: ⭐️⭐️⭐️    // 1 to 3 stars
-date: 2023             // when started reading
-read: 2023             // when finished reading
+<!-- 
+rating: ⭐️⭐️⭐️    // 1到3星
+date: 2023             // 开始阅读时间
+read: 2023             // 完成阅读时间
 status: undefined, backlog, to read, reading, completed, stopped
-*** See "Template Help" below for using properties ***
+*** 参见下方"模板帮助"了解属性使用方法 ***
 -->
 
 ![cover|150](http://books.google.com/books/content?id=o4gwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 
-# Digital Zettelkasten
+# 数字卡片盒
 
-by [[David Kadavy]]
+作者：[[David Kadavy]]
 
-## Summary
-<!-- No more than a couple paragraphs summarizing this BOOK -->
+## 摘要
+<!-- 不超过几段总结这本书的内容 -->
 
-Are you an academic, author, or blogger or anyone else who wants to make writing a breeze? The Zettelkasten method is the perfect way to harness the power of technology to remember what you read and boost creativity. 
+您是学者、作家、博主或任何其他想要让写作变得轻松的人吗？卡片盒方法是利用技术力量记住您所读内容并提升创造力的完美方式。
 
-Invented in the 16th century, and practiced to its fullest extent by a German sociologist who wrote more than seventy books and hundreds of articles, the Zettelkasten method is exploding in popularity. 
+卡片盒方法发明于16世纪，由一位德国社会学家发挥到极致，他写了70多本书和数百篇文章，这种方法正在爆炸性地流行起来。
 
-Writers of all types are discovering that digital tools make the method more powerful than ever, turning your digital life into an “external brain,” or “bicycle for the mind.” 
+各种类型的作家都在发现，数字工具使这种方法比以往任何时候都更强大，将您的数字生活转变为"外部大脑"或"思维的自行车"。
 
-In Digital Zettelkasten: Principles, Methods, & Examples, blogger and nonfiction author David Kadavy shares a first-principles approach on how to adapt the Zettelkasten method to simple digital tools of your choice. 
+在《数字卡片盒：原理、方法和示例》中，博主和非虚构作家David Kadavy分享了如何将卡片盒方法适应您选择的简单数字工具的第一原理方法。
 
-How to structure your Zettelkasten? Kadavy borrows an element of the Getting Things Done framework to make sure nothing you want to read falls through the cracks. Naming convention pros/cons. Should you adopt the classic [[Folgezettel]] technique, or do digital tools make it irrelevant for your workflow? Reading workflow. The exact steps to follow to turn what you read into detailed notes you can mix and match to produce writing. Staying comfortable. 
+如何构建您的卡片盒？Kadavy借用了"搞定"框架的一个元素，确保您想要阅读的任何内容都不会遗漏。命名约定的优缺点。您应该采用经典的[[Folgezettel]]技术，还是数字工具使其对您的工作流程变得无关紧要？阅读工作流程。将您阅读的内容转化为详细笔记的确切步骤，您可以混合搭配来产生写作。保持舒适。
 
-Build a workflow to maintain your Zettelkasten without being chained to your computer. Examples, examples, examples. See real examples of notes that illustrate concepts, so you can build a Zettelkasten that fits your workflow and tools. 
+构建一个维护您的卡片盒的工作流程，而不被束缚在电脑前。示例，示例，示例。查看说明概念的真实笔记示例，这样您就可以构建一个适合您的工作流程和工具的卡片盒。
 
-Digital Zettelkasten: Principles, Methods, & Examples is short, to the point, with no fluff, so it won’t keep you from what you want – to build your Zettelkasten!
+《数字卡片盒：原理、方法和示例》简短、切中要点，没有废话，所以它不会阻止您想要的——构建您的卡片盒！
 
-## Table of Contents
-<!--Link to table of contents (TOC) -->
+## 目录
+<!--指向目录(TOC)的链接 -->
 
 
-## Notes
-<!-- The main content of my thoughts really -->
+## 笔记
+<!-- 我思考的主要内容 -->
 - 
 
 
-## Quotes
-<!-- Notable quotes with reference to their page or location -->
+## 引言
+<!-- 值得注意的引言及其页码或位置引用 -->
 
-## Bibliography
+## 参考文献
 
 > `= this.bibliography`
 
 ---
-# Back Matter
+# 后附内容
 
-**Source**
-<!-- Always keep a link to the source- --> 
-- based_on:: Digital Zettelkasten: Principles, Methods, & Examples
+**来源**
+<!-- 始终保留指向来源的链接- --> 
+- based_on:: 数字卡片盒：原理、方法和示例
 https://kadavy.net/blog/posts/zettelkasten-method-slip-box-digital-example/
 
-**References**
-<!-- Links to pages not referenced in the content. -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。 -->
 -
 
-**Terms**
-<!-- Links to definition pages. -->
+**术语**
+<!-- 指向定义页面的链接。 -->
 - 
 
-**Target**
-<!-- Link to project note or externaly published content. -->
+**目标**
+<!-- 指向项目笔记或外部发布内容的链接。 -->
 - 
 
-**Tasks**
-<!-- What remains to be done with this note? --> 
+**任务**
+<!-- 这个笔记还需要做什么？ --> 
 - 
 
-**Questions**
-<!-- What remains for you to consider? --> 
+**问题**
+<!-- 您还需要考虑什么？ --> 
 - 
 
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)

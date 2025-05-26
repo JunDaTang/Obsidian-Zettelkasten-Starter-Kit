@@ -3,8 +3,8 @@ tags:
   - type/term
   - theme/xyz
 aliases: 
-lead: +++ Term definition goes here +++
-source: +++ source undefined +++
+lead: +++ 术语定义放在这里 +++
+source: +++ 来源未定义 +++
 visual: "![[image.jpg]]"
 created: {{DATE:YYYY-MM-DD, HH:mm}}
 modified: {{DATE:YYYY-MM-DD, HH:mm}}
@@ -12,61 +12,61 @@ template_type: Term
 template_version: "1.22"
 ---
 
-# {{Title}}
-<!--  Clear and descriptive title -->
+# {{标题}}
+<!--  清晰且描述性的标题 -->
 
-<!-- A supporting visual from front matter if available -->
+<!-- 如果有的话，来自前言的支持性视觉图像 -->
 
 ```dataviewjs 
 dv.paragraph(dv.current().visual);
 ```
 
 
-<!-- Term definition and source from front matter goes here. Also used for Dataview glossary. -->
+<!-- 来自前言的术语定义和来源放在这里。也用于Dataview词汇表。 -->
 
 > [!Definition]
 > `= this.lead`
 >  — `= this.source`
 
-<!-- Additional term description if needed -->
+<!-- 如果需要的话，附加术语描述 -->
 
 
 
 
 ---
-# Back Matter
+# 后附内容
 
-**Source**
-<!-- Always keep a link to the source- --> 
+**来源**
+<!-- 始终保留指向来源的链接- --> 
 - based_on::
 
-**References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。参见: [[相关笔记]] 因为 <原因> -->
 - see:: 
 
-**Terms**
-<!-- Links to definition pages. -->
+**术语**
+<!-- 指向定义页面的链接。 -->
 - 
 
-**Target**
-<!-- Link to project note or externaly published content. -->
+**目标**
+<!-- 指向项目笔记或外部发布内容的链接。 -->
 - used_in::
 
 ---
-**Tasks**
-<!-- What remains to be done with this note? --> 
+**任务**
+<!-- 这个笔记还需要做什么？ --> 
 - 
 
-**Questions**
-<!-- What remains for you to consider? --> 
+**问题**
+<!-- 您还需要考虑什么？ --> 
 - question::
 
 ---
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)

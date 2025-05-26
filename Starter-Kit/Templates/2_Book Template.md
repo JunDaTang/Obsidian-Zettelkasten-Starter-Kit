@@ -3,7 +3,7 @@ tags:
 - type/book
 - theme/xyz
 aliases: 
-lead: +++ Lead paragraph goes here +++
+lead: +++ 引言段落放在这里 +++
 visual: "![[image.jpg]]"
 title: "{{title}}"
 subtitle: {{subtitle}}
@@ -21,7 +21,7 @@ isbn13: {{isbn13}}
 isbn10: {{isbn10}}
 link: {{link}}
 preview_link: {{preview_link}}
-bibliography: +++ Copy and paste citation from Zotero +++
+bibliography: +++ 从Zotero复制粘贴引用信息 +++
 rating: 
 date:
 read: 
@@ -31,75 +31,75 @@ modified: {{DATE:YYYY-MM-DD, HH:mm}}
 template_type: Book
 template_version: "1.21"
 ---
-<!-- 
-rating: ⭐️⭐️⭐️    // 1 to 3 stars
-date: 2023             // when started reading
-read: 2023             // when finished reading
+<!-- 
+rating: ⭐️⭐️⭐️    // 1到3颗星
+date: 2023             // 开始阅读的时间
+read: 2023             // 完成阅读的时间
 status: undefined, backlog, to read, reading, completed, stopped
-*** See "Template Help" below for using properties ***
+*** 参见下方"模板帮助"了解属性使用方法 ***
 -->
 
 ![cover|150]({{coverUrl}})
 
-# {{Title}}
+# {{标题}}
 
-by [[{{author}}]]
+作者：[[{{author}}]]
 
-<!-- No more than a couple paragraphs summarizing this BOOK -->
+<!-- 不超过几段总结这本书的内容 -->
 
 > [!summary]
 {{description}}
 
-## Table of Contents
-<!--Link to table of contents (TOC) -->
+## 目录
+<!--指向目录(TOC)的链接 -->
 - 
 
-## Notes
-<!-- The main content of my thoughts really -->
+## 笔记
+<!-- 我的主要思考内容 -->
 - 
 
 
-## Quotes
-<!-- Notable quotes with reference to their page or location -->
+## 引言
+<!-- 值得注意的引言及其页码或位置引用 -->
 
-## Bibliography
+## 参考文献
 
 > `= this.bibliography`
 
 ---
-# Back Matter
+# 后附内容
 
-**Source**
-<!-- Always keep a link to the source- --> 
+**来源**
+<!-- 始终保留指向来源的链接- --> 
 - based_on::
 
-**References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。参见: [[相关笔记]] 因为 <原因> -->
 - see:: 
 
-**Terms**
-<!-- Links to definition pages. -->
+**术语**
+<!-- 指向定义页面的链接。 -->
 - 
 
-**Target**
-<!-- Link to project note or externaly published content. -->
+**目标**
+<!-- 指向项目笔记或外部发布内容的链接。 -->
 - used_in::
 
 ---
-**Tasks**
-<!-- What remains to be done with this note? --> 
+**任务**
+<!-- 这个笔记还需要做什么？ --> 
 - 
 
-**Questions**
-<!-- What remains for you to consider? --> 
+**问题**
+<!-- 您还需要考虑什么？ --> 
 - 
 
 ---
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)

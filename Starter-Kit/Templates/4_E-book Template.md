@@ -6,13 +6,13 @@ tags:
 aliases:
 visual: "![[IMGAGE.png]]"
 title_short: "e1"
-rule: +++ Add simple rule here +++
+rule: +++ 在这里添加简单规则 +++
 chapter: "0.0"
 version: "0.1"
 book_version: 0.19
 status: draft
 word_count: 0
-bar: <progress max=100 value=0></progress><br>0% first ideas
+bar: <progress max=100 value=0></progress><br>0% 初步想法
 created: {{DATE:YYYY-MM-DD, HH:mm}}
 modified: {{DATE:YYYY-MM-DD, HH:mm}}
 published:
@@ -23,14 +23,14 @@ template_version: "1.26"
 ---
 <!--  
 status: draft, final, published, revised 
-bar: <progress max=100 value=0></progress><br>0% first ideas 
-	10% takeaway promised, 20% used for teaching, 30% value offered  
-	40% front-loaded value, 50% high value-per-page, 60% value tested
-	70% feedback received, 80% value improved, 90% finally polished, 100% recommended 
+bar: <progress max=100 value=0></progress><br>0% 初步想法 
+	10% 承诺收获, 20% 用于教学, 30% 提供价值  
+	40% 前置价值, 50% 高页面价值, 60% 价值测试
+	70% 收到反馈, 80% 价值改进, 90% 最终润色, 100% 推荐 
 -->
 
 # {{Title}} - e1
-<!--  Clear and descriptive title -->
+<!--  清晰且描述性的标题 -->
 
 ```dataviewjs 
 var progress_bar = (dv.current().bar);
@@ -38,58 +38,58 @@ var note_status = (dv.current().status);
 dv.paragraph(progress_bar + ', ' + note_status);
 ```
 
-<!-- My sketchnote if available -->
+<!-- 如果有的话，我的草图笔记 -->
 ```dataviewjs 
 dv.paragraph(dv.current().visual);
 ```
 
-<!-- Motivational quote if available -->
+<!-- 如果有的话，激励性引言 -->
 
-<!-- Main content of this chapter -->
+<!-- 本章的主要内容 -->
 
-<!-- Simple rule to remember  -->
+<!-- 要记住的简单规则  -->
 ```dataviewjs 
 dv.paragraph('> ' + dv.current().rule);
 ```
 
-<!-- References in footnote  -->
+<!-- 脚注中的参考资料  -->
 
 
 ---
-# Back Matter
+# 后附内容
 
-**Source**
-<!-- Always keep a link to the source- --> 
+**来源**
+<!-- 始终保留指向来源的链接- --> 
 - based_on::
 
-**Tasks**
-<!-- What remains to be done do get the final version? If process related, use Kanban. --> 
+**任务**
+<!-- 获得最终版本还需要做什么？如果与流程相关，使用看板。 --> 
 - 
 
-**Feedback**
-<!-- What remains for you to consider in the draft version? --> 
+**反馈**
+<!-- 在草稿版本中您还需要考虑什么？ --> 
 **0.14**
 - 
 
-**Table of Content**
-<!-- Links to chapters from e-book -->
-- [004 - Contents](004%20-%20Contents.md)
+**目录**
+<!-- 指向电子书章节的链接 -->
+- [004 - 目录](004%20-%20Contents.md)
 
 
-**References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。参见: [[相关笔记]] 因为 <原因> -->
 - see::
 - 
 
-**Target**
+**目标**
 - target::
 
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)
 

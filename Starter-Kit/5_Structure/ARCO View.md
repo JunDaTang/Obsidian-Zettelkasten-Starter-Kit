@@ -4,7 +4,7 @@ tags:
   - structure/view
   - target/starterkit
 aliases: ARCO
-lead: Based on Nick Milo’s ACE framework.
+lead: 基于Nick Milo的ACE框架。
 created: 2023-09-05, 16:04
 modified: 2025-03-30, 16:36
 template_type: Structure
@@ -15,90 +15,90 @@ view_count: 3
 updated: 2024-10-23T17:47
 ---
 
-[Home](Home.md) | [ARCO](ARCO%20View.md) |  [Inspect](Inspect%20View.md) 
-<!-- Main STRUCTURE of my content -->
-> [!map]- Atlas
-> _Book of maps_
+[首页](Home.md) | [ARCO](ARCO%20View.md) |  [检查](Inspect%20View.md) 
+<!-- 我的内容的主要结构 -->
+> [!map]- 地图集
+> _地图册_
 >
->[[Atlas]] > [[Work]] | [[Community]] | [[Family]] | [[Self]] 
+>[[地图集]] > [[工作]] | [[社区]] | [[家庭]] | [[自我]] 
 > 
 
-> [!reference]- Reference
-> _Book of facts and external links_
+> [!reference]- 参考
+> _事实和外部链接册_
 >
-> [[Reference]] > [Authors](Authors.md) | [Bibliography](Bibliography.md) | [Books](Books.md) | [Glossary](Glossary.md) | [Quotes](Quotes.md)
+> [[参考]] > [作者](Authors.md) | [参考文献](Bibliography.md) | [书籍](Books.md) | [词汇表](Glossary.md) | [引言](Quotes.md)
 
-> [!calendar]- Calendar
-> _Book of events_
+> [!calendar]- 日历
+> _事件册_
 >
->###### Meetings
->- [[Zettelkastenrunde - Mon]] | [WOL Troy - Fri](WOL%20Circle%202024.md)
+>###### 会议
+>- [[卡片盒圆桌 - 周一]] | [WOL Troy - 周五](WOL%20Circle%202024.md)
 >
->###### Bullet Journal
+>###### 子弹日记
 >
 >- [2023](2023.md) | [2024](2024.md) | [[2025]]
->- [[Jan 2025]] | [[Feb 2025]] | [[Mar 2025]]
->- [[Bullet Journal Collections]]
+>- [[2025年1月]] | [[2025年2月]] | [[2025年3月]]
+>- [[子弹日记收集]]
 >
->###### Objectives & Key Results
->- [[OKRs 2022]] | [[OKRs 2023]] | [[OKRs 2024]] | [[OKRs 2025]]
+>###### 目标与关键结果
+>- [[2022年OKR]] | [[2023年OKR]] | [[2024年OKR]] | [[2025年OKR]]
 >
->###### Vision Board
->- [[Vision Board 2022]] | [Vision Board 2023](Vision%20Board%202023.md) | [[Vision Board 2024]]
->- [[Wishes 2022]] | 
->- [[Ideas List]] | 
+>###### 愿景板
+>- [[2022年愿景板]] | [2023年愿景板](Vision%20Board%202023.md) | [[2024年愿景板]]
+>- [[2022年愿望]] | 
+>- [[想法列表]] | 
 
-> [!organizer]- Organizer
-> _Book of tasks and projects_
+> [!organizer]- 组织者
+> _任务和项目册_
 >
-> ###### Projects
-> [_e1 - Make Useful Notes](_e1%20-%20Make%20Useful%20Notes.md) | [LinkedIn](LinkedIn%20Log.md)
+> ###### 项目
+> [_e1 - 做有用的笔记](_e1%20-%20Make%20Useful%20Notes.md) | [LinkedIn](LinkedIn%20Log.md)
 > 
-> ###### Tasks
-> [Tasks](Tasks.md) |  [Tasks Open](Tasks%20Open.md) | [from E-book](Tasks%20from%20E-book.md) | [from Zettelkasten](Tasks%20-%20Zettelkasten.md) | [from Sketchnotes](Tasks%20-%20Sketchnotes.md)
+> ###### 任务
+> [任务](Tasks.md) |  [待办任务](Tasks%20Open.md) | [来自电子书](Tasks%20from%20E-book.md) | [来自卡片盒](Tasks%20-%20Zettelkasten.md) | [来自草图笔记](Tasks%20-%20Sketchnotes.md)
 > 
-> ###### Kanban
-> [Kanban Board](Kanban%20Board.md) | [Kanban Dashboard](Kanban%20Dashboard.canvas)
+> ###### 看板
+> [看板](Kanban%20Board.md) | [看板仪表板](Kanban%20Dashboard.canvas)
 >
->> [!backlog]- Backlog
+>> [!backlog]- 待办事项
 >>```dataview
 >>TABLE WITHOUT ID
->>	file.link as note,
->>	file.cday AS "created", 
->>	file.folder AS "folder" 
+>>	file.link as 笔记,
+>>	file.cday AS "创建时间", 
+>>	file.folder AS "文件夹" 
 >>FROM "" 
 >>WHERE kanban = "backlog"
 >>SORT file.folder ASC
 >>```
 >
->>[!todo]- ToDo
+>>[!todo]- 待做
 >>```dataview
 >>TABLE WITHOUT ID
->>	file.link as note,
->>	file.cday AS "created", 
->>	file.folder AS "folder" 
+>>	file.link as 笔记,
+>>	file.cday AS "创建时间", 
+>>	file.folder AS "文件夹" 
 >>FROM "" 
 >>WHERE kanban = "todo"
 >>SORT file.folder ASC
 >>```
 >
->>[!doing]+ Doing - _WIP Limit 3_
+>>[!doing]+ 进行中 - _WIP限制3个_
 >>```dataview
 >>TABLE WITHOUT ID
->>	file.link as note,
->>	file.cday AS "created", 
->>	file.folder AS "folder" 
+>>	file.link as 笔记,
+>>	file.cday AS "创建时间", 
+>>	file.folder AS "文件夹" 
 >>FROM "" 
 >>WHERE kanban = "doing"
 >>SORT file.folder ASC
 >>```
 >
->>[!done]- Done
+>>[!done]- 已完成
 >>```dataview
 >>TABLE WITHOUT ID
->>	file.link as note,
->>	file.mday AS "modified", 
->>	file.folder AS "folder" 
+>>	file.link as 笔记,
+>>	file.mday AS "修改时间", 
+>>	file.folder AS "文件夹" 
 >>FROM "" 
 >>WHERE kanban = "done"
 >>SORT file.mday DESC
@@ -106,4 +106,4 @@ updated: 2024-10-23T17:47
 >>```
 >
 
-<small>*) 100% organic thinking. Less than 5% AI-generated ideas.</small>
+<small>*) 100%有机思维。少于5%的AI生成想法。</small>

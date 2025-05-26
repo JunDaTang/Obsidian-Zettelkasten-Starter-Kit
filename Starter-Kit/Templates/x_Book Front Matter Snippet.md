@@ -3,7 +3,7 @@ tags:
   - type/book
   - theme/xyz
 aliases: 
-lead: +++ Lead paragraph goes here +++
+lead: +++ 引言段落放在这里 +++
 visual: "![[image.jpg]]"
 title: 
 subtitle: 
@@ -21,7 +21,7 @@ isbn10:
 description: 
 link: 
 preview_link: 
-bibliography: +++ Copy here from Zotero +++
+bibliography: +++ 从Zotero复制到这里 +++
 rating: 
 date: 
 read: 
@@ -31,12 +31,12 @@ modified: {{DATE:YYYY-MM-DD, HH:mm}}
 template_type: Book
 template_version: "1.16"
 ---
-<!-- 
-rating: ⭐️⭐️⭐️    // 1 to 3 stars
-date: 2024             // when started reading
-read: 2024             // when finished reading
+<!-- 
+rating: ⭐️⭐️⭐️    // 1到3星
+date: 2024             // 开始阅读时间
+read: 2024             // 完成阅读时间
 status: undefined, backlog, to read, reading, completed, stopped
-*** See "Template Help" below for using properties ***
+*** 参见下方"模板帮助"了解属性使用方法 ***
 -->
 
 

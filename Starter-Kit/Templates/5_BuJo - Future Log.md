@@ -11,81 +11,81 @@ banner_x: 0.5
 template_type: BuJo Future
 template_version: "1.12"
 ---
-<!--  See "Template Help" below for using properties -->
+<!--  参见下方"模板帮助"了解属性使用方法 -->
 
-# Future Log {{Title}}
+# 未来日志 {{Title}}
 
-<!-- Main STRUCTURE of my content -->
-[Future Logs](Future%20Logs.md) | [[2025]] | [Ideas List](Ideas%20List.md) | [Vision Board 2024](Vision%20Board%202024.md)
+<!-- 我的内容的主要结构 -->
+[未来日志](Future%20Logs.md) | [[2025]] | [想法列表](Ideas%20List.md) | [2024年愿景板](Vision%20Board%202024.md)
 ___
 
-**Objectives & Key Results | 3-4 & 1-4**
-
-
-___
-
-**Key Actions | 1+**
+**目标与关键结果 | 3-4 & 1-4**
 
 
 ___
 
-**Tasks**
+**关键行动 | 1+**
 
 
 ___
 
-**January**
-
-**February**
-
-**March**
-
-**April**
-
-**May**
-
-**June**
-
-**July**
-
-**August**
-
-**September**
-
-**October**
-
-**November**
-
-**December**
+**任务**
 
 
 ___
-# Back Matter
-**Source**
-<!-- Always keep a link to the source- --> 
+
+**一月**
+
+**二月**
+
+**三月**
+
+**四月**
+
+**五月**
+
+**六月**
+
+**七月**
+
+**八月**
+
+**九月**
+
+**十月**
+
+**十一月**
+
+**十二月**
+
+
+___
+# 后附内容
+**来源**
+<!-- 始终保留指向来源的链接- --> 
 - 
 
-**Tasks**
-<!-- What remains to be done with this note? --> 
+**任务**
+<!-- 这个笔记还需要做什么？ --> 
 - 
 
-**Questions**
-<!-- What remains for you to consider? --> 
+**问题**
+<!-- 您还需要考虑什么？ --> 
 - 
 
-**Terms**
-<!-- Links to definition pages. -->
+**术语**
+<!-- 指向定义页面的链接。 -->
 - 
 
-**References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+**参考资料**
+<!-- 指向内容中未引用页面的链接。参见: [[相关笔记]] 因为 <原因> -->
 - see::
 
-**Template Help**
-<!-- Links to external help pages on GitHub. -->
-- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
-- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
-- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
-- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
-- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
-- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+**模板帮助**
+<!-- 指向GitHub上外部帮助页面的链接。 -->
+- [基本模板结构](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [如何使用链接](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [如何使用标签](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [如何搜索笔记](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [所需插件](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [查找最新更新](https://github.com/groepl/Obsidian-Templates)

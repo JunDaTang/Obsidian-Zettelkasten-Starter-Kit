@@ -10,4 +10,4 @@ template_type: BuJo Daily
 template_version: "1.9"
 ---
 
-## Ideas & Tasks
+## 想法和任务
